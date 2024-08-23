@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles/Calculator.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.0/math.min.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    <div id="display" class="display"></div>
+    <div class="buttons">
+      <!-- Top Row: Clear, Delete, Mode, Shift -->
+      <button onclick="handleClear()">AC</button>
+      <button onclick="handleDelete()">DEL</button>
+      <button onclick="handleButtonClick('MODE')">MODE</button>
+      <button onclick="handleButtonClick('SHIFT')">SHIFT</button>
+
+      <!-- Numbers and Basic Operations -->
+      <button onclick="handleButtonClick('7')">7</button>
+      <button onclick="handleButtonClick('8')">8</button>
+      <button onclick="handleButtonClick('9')">9</button>
+      <button onclick="handleButtonClick('/')">÷</button>
+
+      <button onclick="handleButtonClick('4')">4</button>
+      <button onclick="handleButtonClick('5')">5</button>
+      <button onclick="handleButtonClick('6')">6</button>
+      <button onclick="handleButtonClick('*')">×</button>
+
+      <button onclick="handleButtonClick('1')">1</button>
+      <button onclick="handleButtonClick('2')">2</button>
+      <button onclick="handleButtonClick('3')">3</button>
+      <button onclick="handleButtonClick('-')">-</button>
+
+      <button onclick="handleButtonClick('0')">0</button>
+      <button onclick="handleButtonClick('.')">.</button>
+      <button onclick="handleEquals()">=</button>
+      <button onclick="handleButtonClick('+')">+</button>
+
+      <!-- Trigonometric Functions -->
+      <button onclick="handleButtonClick('sin')">sin</button>
+      <button onclick="handleButtonClick('cos')">cos</button>
+      <button onclick="handleButtonClick('tan')">tan</button>
+
+      <!-- Logarithmic and Exponential Functions -->
+      <button onclick="handleButtonClick('log')">log</button>
+      <button onclick="handleButtonClick('ln')">ln</button>
+      <button onclick="handleButtonClick('EXP')">EXP</button>
+
+      <!-- Additional Functions -->
+      <button onclick="handleButtonClick('(')">(</button>
+      <button onclick="handleButtonClick(')')">)</button>
+      <button onclick="handleButtonClick('^')">^</button>
+      <button onclick="handleButtonClick('sqrt')">sqrt</button>
+      <button onclick="handleButtonClick('3.14159')">π</button>
+      <button onclick="handleButtonClick('Ans')">Ans</button>
+    </div>
+  </div>
+  <script src="scripts/Calculator.js"></script>
+</body>
+</html>

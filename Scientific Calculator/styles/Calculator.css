@@ -1,0 +1,68 @@
+body {
+    background: #eae5e5;
+  }
+  
+  .calculator {
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 20px;
+    background: linear-gradient(145deg, #e5e9ed, #bdc2c6);
+    box-shadow: 40px 40px 80px #a3a9ae, -40px -40px 80px #ffffff;
+    border: 5px solid #d1d5d9;
+  }
+  
+  .display {
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(145deg, #f1f8f2, #c5d5c9);
+    border: 1px solid #999;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: inset 10px 10px 20px #a3a9ae, inset -10px -10px 20px #ffffff;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 1.1em;
+    border: none;
+    background: linear-gradient(145deg, #97a9c1, #6d819e);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 15px 15px 30px #a3a9ae, -15px -15px 30px #ffffff;
+  }
+  
+  button:hover {
+    background-color: #9aa4b0;
+    transform: translateY(-5px);
+    box-shadow: 20px 20px 40px #a3a9ae, -20px -20px 40px #ffffff;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: inset 8px 8px 16px #a3a9ae, inset -8px -8px 16px #ffffff;
+  }
+  
+  button:nth-child(1) {
+    background: linear-gradient(145deg, #ff8989, #d46b6b);
+  }
+  
+  button:nth-child(2) {
+    background: linear-gradient(145deg, #ffd185, #cc9e52);
+  }
+  
+  button:nth-child(3),
+  button:nth-child(4) {
+    background: linear-gradient(145deg, #d3d3d3, #b0b0b0);
+  }
