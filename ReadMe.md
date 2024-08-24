@@ -17,7 +17,7 @@ The Frontend Passion Indulgence repository aims to provide a curated selection o
 ## Projects
 
 ### 1. Analog Clock with Wooden Texture
-- Live Demo: [Click here](https://your-live-demo-link.com)
+- Live Demo: [Click here](https://analog-clock-wooden-texture.onrender.com/)
 - CodePen: [View on CodePen](https://codepen.io/Bahageel1988/pen/eYwMLJB)
 
 This project showcases the creation of an analog clock with a wooden texture. It combines HTML, CSS, and JavaScript to create a visually appealing and functional clock.
